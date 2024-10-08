@@ -13,7 +13,6 @@
                 padding-top: 56px; /* Zorgt ervoor dat de inhoud niet onder de navbar valt */
             }
             .col{
-                background-color: blue;
                 display: flex; /* Maakt de kolom een flex-container */
                 flex-direction: column; /* Zorgt ervoor dat de inhoud verticaal wordt uitgelijnd */
                 justify-content: center; /* Centreert de inhoud verticaal */
@@ -29,8 +28,12 @@
             text-align: center; /* Centraal uitlijnen */
             padding: 20px; /* Padding rondom de footer */
         }
-            .nav-link:hover {
+        .nav-link:hover {
             color: #ffc107; /* Gele kleur bij hover */
+        }
+        .row{
+            background-color: #007bff;
+            border-radius: 5px;
         }
         </style>
         <title>Mijn pagina</title>
@@ -53,7 +56,7 @@
                         <div class="collapse navbar-collapse  justify-content-center" id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="overmij.html">Over mij</a>
